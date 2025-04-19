@@ -112,7 +112,7 @@ After a lot of trials and errors with the parameters and model architecture, thi
 
 We can observe the model's performance on training and validation data, the learning process, and its generalization ability.
 
-![Model train-Loss Curves](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/train_valid_curves.PNG) 
+![Model train-Loss Curves](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/train_valid_curves.png) 
 
 It wasn't a good training performance because, 
 
@@ -134,7 +134,7 @@ Model performance on test data.
 
 - Confusion Matrix: Confusion matrices is employed to assess the model's performance by visualizing the distribution of true positive, true negative, false positive, and false negative predictions for each sentiment category by all the models.
 
-![Confusion Matrices](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/cfs.png)
+![Confusion Matrices](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/cfs.jpg)
 
 #### From left: Logistic Regression - Random Forest - Keras Model
 
