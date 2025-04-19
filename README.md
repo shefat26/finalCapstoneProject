@@ -41,29 +41,29 @@ Plot summaries are cleaned to eliminate irrelevant information and reduce noise 
 
 ## Exploratory data analysis
 
-![Word-Character Distribution](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/wcc_dist.png) 
+![Word-Character Distribution](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/wcc_dist.png) 
 
 - There are two main plot length styles in the dataset — brief (30–40 words) and extended (60–70 words).
 - A maximum character limit of ~342 is enforced or commonly hit.
 - The dataset mixes single-sentence summaries with multi-sentence overviews.
 - Useful for training models where input size and richness vary, such as in summarization or classification tasks
 
-![Genre Distribution](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/genre_count.png) 
+![Genre Distribution](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/genre_count.png) 
 - There are 27 different unique genres but later Genre counts that had less than 10 were dropped.
 - Drama Genre is most often
 - There are two main plot length styles in the dataset — brief (30–40 words) and extended (60–70 words).
 
-![Label cardinality](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/label_cardi.png) 
+![Label cardinality](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/label_cardi.png) 
 - Label cardinality: Most of the movies have 3 genres
 
-![Genre co-occurrence](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/co_occurance.png) 
+![Genre co-occurrence](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/co_occurance.png) 
 - Genre co-occurrence: Drama is being classified as Drama very often
 
 
-![Word cloud](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/word_cloud.png) 
+![Word cloud](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/word_cloud.png) 
 - Word cloud indicates life, new, young, world, family, man, love focuses on personal journeys, relationships, and family dynamics and frequent themes of youth and self-discovery
 
-![Word cloud](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/tf_idf_table.PNG) 
+![Word cloud](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/tf_idf_table.PNG) 
 - Top phrases: year old, new york, high school, los angeles emphasises on age/life stage, urban settings, and school themes
 - Common trigrams are new york city, world war ii, based true story and plots include historical events, real locations, and biographical elements which mentions of production companies suggest some summaries mix marketing content
 - High-frequency verbs/nouns: find, discover, follow, story, family indicates themes of transformation, search, and human-centered stories
@@ -99,7 +99,7 @@ The model is consisting of multiple layers including:
 
 A diagram of developed the model is given below
 
-![Developed TF model](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/model_arch.png) 
+![Developed TF model](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/model_arch.png) 
 
 
 
@@ -112,7 +112,7 @@ After a lot of trials and errors with the parameters and model architecture, thi
 
 We can observe the model's performance on training and validation data, the learning process, and its generalization ability.
 
-![Model train-Loss Curves](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/train_valid_curves.png) 
+![Model train-Loss Curves](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/train_valid_curves.png) 
 
 It wasn't a good training performance because, 
 
@@ -134,7 +134,7 @@ Model performance on test data.
 
 - Confusion Matrix: Confusion matrices is employed to assess the model's performance by visualizing the distribution of true positive, true negative, false positive, and false negative predictions for each sentiment category by all the models.
 
-![Confusion Matrices](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/cfs.jpg)
+![Confusion Matrices](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/cfs.jpg)
 
 #### From left: Logistic Regression - Random Forest - Keras Model
 
@@ -142,7 +142,7 @@ Model performance on test data.
 
 ## Model Performance Metrics
 
-![Classification Report](https://raw.githubusercontent.com/shefat26/capstonProject/refs/heads/main/figures/crcm.PNG) 
+![Classification Report](https://raw.githubusercontent.com/shefat26/finalCapstoneProject/refs/heads/main/figures/crcm.PNG) 
 
 
 
